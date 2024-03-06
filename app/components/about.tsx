@@ -1,3 +1,4 @@
+import Attributes from "./attributes";
 import Skills from "./skills";
 import Workx from "./workx";
 
@@ -25,9 +26,15 @@ const About = () => {
             Javascript solutions for real-world problems.
           </p>
 
-          <div className="mt-6 grid grid-cols-12 gap-3">
-            <Workx />
-            <Skills />
+          <div className="mt-6 grid grid-cols-12 gap-3 h-fit">
+            <div className="rounded-lg col-span-12 md:col-span-8 p-4 md:p-4 bg-gray-200 text-black">
+              <Workx />
+            </div>
+
+            <div className="flex flex-col justify-between col-span-12 md:col-span-4 h-full bg-indigo-50">
+              <Skills />
+              <Attributes />
+            </div>
           </div>
         </div>
       </div>

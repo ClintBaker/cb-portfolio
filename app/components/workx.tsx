@@ -1,6 +1,6 @@
 export default function Workx() {
   return (
-    <div className="rounded-lg col-span-12 md:col-span-9 p-4 md:p-4 bg-gray-200 text-black">
+    <>
       <h2 className="text-2xl font-bold mb-2">Work Experience</h2>
       <ul>
         <li>
@@ -55,6 +55,6 @@ export default function Workx() {
           </ul>
         </li>
       </ul>
-    </div>
+    </>
   );
 }
