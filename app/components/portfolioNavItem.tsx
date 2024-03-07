@@ -1,7 +1,7 @@
 const activeClass =
   "cursor-pointer bg-blue-400 bg-opacity-45 rounded-lg p-4 border-[1px] border-blue-400";
 const inactiveClass =
-  "p-4 cursor-pointer hover:bg-blue-500 hover:bg-opacity-45 hover:rounded-lg";
+  "p-4 cursor-pointer hover:bg-blue-500 hover:bg-opacity-45 hover:rounded-lg border-[1px] border-transparent";
 
 export default function portfolioNavItem(props: {
   name: string;
