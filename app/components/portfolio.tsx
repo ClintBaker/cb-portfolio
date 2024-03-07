@@ -49,7 +49,7 @@ const Portfolio = () => {
                 active={active}
                 setActive={setActive}
               />
-              <p className="mt-6 px-8 text-sm">{active.description}</p>
+              <p className="mt-6 h-16 px-8 text-sm">{active.description}</p>
             </div>
           </div>
           <div className="flex flex-col justify-center items-center col-span-12 lg:col-span-8 mx-4 p-2 lg:mx-0 lg:p-0">
