@@ -6,18 +6,24 @@ const inactiveClass =
 export default function SmallNavItem(props: {
   name: string;
   description: string;
-  active: string;
+  active: any;
   setActive: Function;
+  id: any;
 }) {
   const { name, description } = props;
 
   function handleClick() {
-    props.setActive(props.name);
+    console.log(props.active);
+    props.setActive({
+      name: props.name,
+      description: props.description,
+      id: props.id,
+    });
   }
   return (
     <button
       onClick={handleClick}
-      className={props.active === props.name ? activeClass : inactiveClass}
+      className={props.active.id === props.id ? activeClass : inactiveClass}
     >
       {name}
     </button>

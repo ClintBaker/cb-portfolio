@@ -6,18 +6,19 @@ const inactiveClass =
 export default function portfolioNavItem(props: {
   name: string;
   description: string;
-  active: string;
+  active: any;
   setActive: Function;
+  id: any;
 }) {
   const { name, description } = props;
 
   function handleClick() {
-    props.setActive(props.name);
+    props.setActive(props.active);
   }
   return (
     <div
       onClick={handleClick}
-      className={props.active === props.name ? activeClass : inactiveClass}
+      className={props.active.id === props.id ? activeClass : inactiveClass}
     >
       <h4 className="text-xl">{name}</h4>
       <p className="mt-4 text-sm">{description}</p>
