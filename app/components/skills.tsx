@@ -2,7 +2,7 @@ export default function Skills() {
   return (
     <div className="rounded-lg p-4 md:p-4 bg-blue-500 text-white">
       <h2 className="text-2xl font-bold mb-2">Skills</h2>
-      <ul>
+      <ul className="text-base">
         <li>
           <span className="font-bold">Languages:</span> HTML, CSS, Javascript,
           Typescript

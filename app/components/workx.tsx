@@ -7,7 +7,7 @@ export default function Workx() {
           <h3 className="text-lg font-semibold">
             JLB Companies - Web Developer
           </h3>
-          <p className="text-sm text-blue-600">
+          <p className="text-base text-blue-600">
             Dec 2023 - Present && Nov 2018 - Dec 2022 (4.5 years)
           </p>
           <ul className="text-sm list-disc mx-4">
@@ -35,7 +35,9 @@ export default function Workx() {
           <h3 className="text-lg font-semibold">
             TechTAC - Operations Analyst
           </h3>
-          <p className="text-sm text-blue-600">Dec 2022 - Dec 2023 (1 year)</p>
+          <p className="text-base text-blue-600">
+            Dec 2022 - Dec 2023 (1 year)
+          </p>
           <ul className="text-sm list-disc mx-4">
             <li>
               Managed extensive data for a manufacturing company, including a

@@ -2,6 +2,7 @@ import type { MetaFunction } from "@remix-run/node";
 import { Link } from "@remix-run/react";
 import About from "~/components/about";
 import Hero from "~/components/hero";
+import "~/components/styles.css";
 
 export const meta: MetaFunction = () => [
   { title: "Clint Baker | Full Stack Javascript Developer" },
