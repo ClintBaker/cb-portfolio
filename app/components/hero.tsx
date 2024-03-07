@@ -1,4 +1,5 @@
 import { Link } from "@remix-run/react";
+import Socials from "./socials";
 
 export default function Hero() {
   return (
@@ -7,7 +8,8 @@ export default function Hero() {
         <h1 className="text-3xl lg:text-5xl font-bold mb-4">
           Hey, my name is Clint Baker
         </h1>
-        <p className="text-xl mb-8">I'm a full stack software developer.</p>
+        <p className="text-xl mb-0">I'm a full stack software developer.</p>
+        <Socials />
         <Link to="#about">
           <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
             Let's talk about me
