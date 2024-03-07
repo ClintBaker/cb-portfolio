@@ -13,12 +13,8 @@ export default function SmallNavItem(props: {
   const { name, description } = props;
 
   function handleClick() {
-    console.log(props.active);
-    props.setActive({
-      name: props.name,
-      description: props.description,
-      id: props.id,
-    });
+    console.log("SETTING ACTIVE");
+    props.setActive(props.id);
   }
   return (
     <button

@@ -13,11 +13,7 @@ export default function portfolioNavItem(props: {
   const { name, description } = props;
 
   function handleClick() {
-    props.setActive({
-      name: props.name,
-      description: props.description,
-      id: props.id,
-    });
+    props.setActive(props.id);
   }
   return (
     <div

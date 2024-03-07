@@ -12,7 +12,11 @@ export default function PortfolioItems(props: {
 }) {
   return (
     <div>
-      <img src={profilePicUrl} alt="alt" className="rounded-lg object-cover" />
+      <img
+        src={props.active.imgUrl}
+        alt="alt"
+        className="rounded-lg object-cover"
+      />
     </div>
   );
 }
