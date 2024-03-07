@@ -15,13 +15,13 @@ const portfolioItems = [
     id: 1,
     name: "Golf Course Ranker",
     description:
-      "A MERN Stack project that allows users to rank and manage their favorite golf courses.",
+      "A MERN Stack project that allows users to rank and manage their favorite golf courses, and browse courses based on user ranks.",
   },
   {
     id: 2,
     name: "Shopify Development",
     description:
-      "Throughout my career I've developed, worked on, improved, and maintained a number of Shopify apps, storefronts, and micorservices.  Here's some examples.",
+      "Throughout my career I've developed, worked on, improved, and maintained a number of Shopify apps, storefronts, and micorservices.",
   },
 ];
 
@@ -34,25 +34,25 @@ const Portfolio = () => {
           <h2 className=" text-4xl">Portfolio</h2>
           <p className="mt-4">Take a look at some of my work.</p>
         </div>
-        <div className="grid grid-cols-12 gap-0 mt-12 md:mt-8">
-          <div className="col-span-12 md:col-span-4">
-            <div className="hidden md:inline-block">
+        <div className="grid grid-cols-12 gap-2 mt-12 md:mt-8 ">
+          <div className="col-span-12 lg:col-span-4">
+            <div className="hidden lg:flex lg:flex-col lg:justify-center lg:items-center lg:h-full">
               <HorizontalNav
                 portfolioItems={portfolioItems}
                 active={active}
                 setActive={setActive}
               />
             </div>
-            <div className="flex flex-col justify-center items-center md:hidden bg-blue-400 bg-opacity-45 rounded-lg border-[1px] border-blue-400 mx-6 p-4">
+            <div className="flex flex-col justify-center items-center lg:hidden bg-blue-400 bg-opacity-45 rounded-lg border-[1px] border-blue-400 mx-6 p-4">
               <SmallNav
                 portfolioItems={portfolioItems}
                 active={active}
                 setActive={setActive}
               />
-              <p className="mt-6 px-8">{active.description}</p>
+              <p className="mt-6 px-8 text-sm">{active.description}</p>
             </div>
           </div>
-          <div className="col-span-12 md:col-span-8 bg-slate-400">
+          <div className="flex flex-col justify-center items-center col-span-12 lg:col-span-8 mx-4 p-2 lg:mx-0 lg:p-0">
             <PortfolioItems
               portfolioItems={portfolioItems}
               active={active}

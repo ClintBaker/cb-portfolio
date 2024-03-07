@@ -2,8 +2,6 @@ import Attributes from "./attributes";
 import Skills from "./skills";
 import Workx from "./workx";
 
-const profilePicUrl = "https://via.placeholder.com/150";
-
 const About = () => {
   return (
     <div id="about" className="py-16 bg-white rounded-t-[40px]">
