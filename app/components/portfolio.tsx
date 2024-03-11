@@ -40,10 +40,10 @@ const Portfolio = () => {
     setActive(portfolioItems[newActiveIndex]);
   }
   return (
-    <div className="py-16 flex flex-col justify-center items-center mx-auto px-0 text-white bg-gradient-to-r from-blue-700 from-10% via-blue-500 via-65% to-sky-500 to-90%">
+    <div className="py-24 flex flex-col justify-center items-center mx-auto px-0 text-white bg-gradient-to-r from-blue-700 from-10% via-blue-500 via-65% to-sky-500 to-90%">
       <div className="container mx-auto px-0">
         <div className="text-center">
-          <h2 className=" text-4xl">Portfolio</h2>
+          <h2 className="text-4xl">Portfolio</h2>
           <p className="mt-4">Take a look at some of my work.</p>
         </div>
         <div className="grid grid-cols-12 gap-2 mt-12 md:mt-8 ">
