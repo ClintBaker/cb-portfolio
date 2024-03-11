@@ -1,3 +1,5 @@
+import { Link } from "@remix-run/react";
+
 interface portfolioItem {
   description: string;
   name: string;
@@ -12,11 +14,13 @@ export default function PortfolioItems(props: {
 }) {
   return (
     <div>
-      <img
-        src={props.active.imgUrl}
-        alt="alt"
-        className="rounded-lg object-cover"
-      />
+      <Link to={props.active.link} target="_blank">
+        <img
+          src={props.active.imgUrl}
+          alt="alt"
+          className="rounded-lg object-cover"
+        />
+      </Link>
     </div>
   );
 }
