@@ -12,17 +12,23 @@ export default function Navi() {
             <div className="ml-2">Clint Baker</div>
           </div>
         </a>
-        <div className="hidden md:flex space-x-4">
-          <a href="#" className="hover:bg-blue-700 p-2 rounded">
-            Home
-          </a>
-          <a href="#" className="hover:bg-blue-700 p-2 rounded">
+        <div className="flex space-x-4">
+          <a
+            href="javascript:document.getElementById('about').scrollIntoView(true);"
+            className="hover:bg-blue-700 p-2 rounded"
+          >
             About
           </a>
-          <a href="#" className="hover:bg-blue-700 p-2 rounded">
-            Services
+          <a
+            href="javascript:document.getElementById('portfolio').scrollIntoView(true);"
+            className="hover:bg-blue-700 p-2 rounded"
+          >
+            Portfolio
           </a>
-          <a href="#" className="hover:bg-blue-700 p-2 rounded">
+          <a
+            href="javascript:document.getElementById('contact').scrollIntoView(true);"
+            className="hover:bg-blue-700 p-2 rounded"
+          >
             Contact
           </a>
         </div>
