@@ -10,21 +10,21 @@ const portfolioItems = [
     name: "Reqbro",
     description:
       "A command line tool developed to query a free tier Render.com app every 14 minutes in order to prevent the server from spinning down 😉.",
-    imgUrl: "/assets/reqbro.png",
+    imgUrl: "/assets/reqbro.jpeg",
   },
   {
     id: 1,
     name: "Golf Course Ranker",
     description:
       "A MERN Stack project that allows users to rank and manage their favorite golf courses, and browse courses based on user ranks.",
-    imgUrl: "/assets/gcr.png",
+    imgUrl: "/assets/gcr.jpeg",
   },
   {
     id: 2,
     name: "Shopify Development",
     description:
       "Throughout my career I've developed, worked on, improved, and maintained a number of Shopify apps, storefronts, and micorservices.",
-    imgUrl: "/assets/shop.png",
+    imgUrl: "/assets/shop.jpeg",
   },
 ];
 
