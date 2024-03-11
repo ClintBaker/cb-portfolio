@@ -73,7 +73,7 @@ function ContactForm() {
               id="name"
               placeholder="Name"
               required
-              className="bg-gray-600 opacity-75 p-3 rounded-md shadow-sm sm:text-sm w-full"
+              className="bg-gray-600 opacity-75 p-3 rounded-md shadow-sm sm:text-sm w-full focus:outline-none focus:ring focus:ring-blue-300"
               value={formData.name}
               onChange={handleChange}
             />
@@ -85,7 +85,7 @@ function ContactForm() {
               id="email"
               placeholder="Email"
               required
-              className="bg-gray-600 opacity-75 p-3 rounded-md shadow-sm sm:text-sm w-full"
+              className="bg-gray-600 opacity-75 p-3 rounded-md shadow-sm sm:text-sm w-full focus:outline-none focus:ring focus:ring-blue-300"
               value={formData.email}
               onChange={handleChange}
             />
@@ -98,7 +98,7 @@ function ContactForm() {
             placeholder="Message"
             rows={8}
             required
-            className="bg-gray-600 opacity-75 p-3 rounded-md shadow-sm sm:text-sm w-full"
+            className="bg-gray-600 opacity-75 p-3 rounded-md shadow-sm sm:text-sm w-full focus:outline-none focus:ring focus:ring-blue-300"
             value={formData.message}
             onChange={handleChange}
           ></textarea>
