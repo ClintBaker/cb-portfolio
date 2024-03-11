@@ -1,6 +1,7 @@
 import type { MetaFunction } from "@remix-run/node";
 import { Link } from "@remix-run/react";
 import About from "~/components/about";
+import Contact from "~/components/contact";
 import Hero from "~/components/hero";
 import Portfolio from "~/components/portfolio";
 import "~/components/styles.css";
@@ -15,6 +16,7 @@ export default function Index() {
       <Hero />
       <About />
       <Portfolio />
+      <Contact />
     </main>
   );
 }

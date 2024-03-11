@@ -9,7 +9,7 @@ export default function Hero() {
           Hey, my name is Clint Baker
         </h1>
         <p className="text-xl mb-0">I'm a full stack software developer.</p>
-        <Socials />
+        <Socials fillColor="#000000" />
         <Link to="#about">
           <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
             Let's talk about me
