@@ -22,7 +22,7 @@ export default function Socials() {
       <Link
         className="m-2"
         target="_blank"
-        to="www.linkedin.com/in/clintjbaker"
+        to="https://www.linkedin.com/in/clintjbaker"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
