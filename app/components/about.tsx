@@ -1,3 +1,4 @@
+import { Link } from "@remix-run/react";
 import Attributes from "./attributes";
 import Skills from "./skills";
 import Workx from "./workx";
@@ -35,6 +36,13 @@ const About = () => {
             </div>
           </div>
         </div>
+        <Link to="assets/clint-baker-resume.pdf" target="_blank">
+          <div className="mt-12 flex justify-center items-center">
+            <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+              Download my resume
+            </button>
+          </div>
+        </Link>
       </div>
     </div>
   );
